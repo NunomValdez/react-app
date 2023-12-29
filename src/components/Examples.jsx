@@ -27,6 +27,7 @@ export default function Examples() {
     <>
       <Section id="examples" title="Examples">
         <Tabs
+          // ButtonsContainer="menu" //we could do it like this, or in the Tabs component, map this prop to a const variable with capital letter, to dynamically set the value to the correspondent tab
           buttons={
             <>
               <TabButton
